@@ -1,0 +1,26 @@
+{
+  "[github.copilot]": {
+    "chat.welcomeMessage": false
+  },
+  "github.copilot.chat.logLevel": "debug",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true
+  },
+  "github.copilot.advanced": {
+    "debug.overrideEngine": "",
+    "debug.testOverrideProxyUrl": "",
+    "debug.overrideCacheSizeInMB": 128,
+    "debug.enableDebugLogs": true
+  },
+  "[log]": {
+    "editor.formatOnSave": false
+  },
+  "python-envs.defaultEnvManager": "ms-python.python:conda",
+  "python-envs.defaultPackageManager": "ms-python.python:conda",
+  "python-envs.pythonProjects": [],
+  "chat.tools.terminal.autoApprove": {
+    "openspec": true
+  }
+}
